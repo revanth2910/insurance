@@ -1,0 +1,2 @@
+just to see how vim will create a file 
+
