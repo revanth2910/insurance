@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="westland" parallel="classes" thread-count="5">
+
+  <listeners>
+      <listener class-name = "utilies.listner"/>
+  </listeners>
+
+  <test name="insurance">
+  
+  	<parameter name = "Browser" value = "chrome" />
+  	
+    <classes>
+      <!-- <class name="test_cases.TC_RQ_001" />  -->
+      <!-- <class name="test_cases.TC_RQ_002" />  -->
+      <!-- <class name="test_cases.TC_RQ_003" />  -->
+      <!-- <class name="test_cases.TC_RQ_004" />  -->
+      
+	       <class name="test_cases.TC_SC_001" />
+	       
+    </classes>
+    
+  </test>
+  
+</suite>
